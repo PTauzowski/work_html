@@ -1,3 +1,4 @@
+
 Dzień 21-09-2017 (BB)
 1) Zamienić zdjęcie Syrenki w pokazie slajdów na stronie powitalnej
 
@@ -21,6 +22,5 @@ Dzień 21-09-2017 (BB)
 
 11) Warsaw - krótkie opisy obiektów
 
-
-
+12) Na stronie "Conference topics" poprawić "realiability" na "reliability" !
 
