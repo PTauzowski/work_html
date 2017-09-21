@@ -246,7 +246,7 @@ p.close()
 
 ################################################Contact
 p=Page('contact');        
-p.template('page')
+p.template('page_menuless')
 p.replace('#mainmenu','main_menu')
 p.replace('#image','static_7')
 p.replace('#menu',' ')
@@ -254,4 +254,5 @@ p.replace('#content','contact_content')
 p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contact<b class="caret"></b></a>',
 	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contact<b class="caret"></b></a>')
 p.close()
+
 
