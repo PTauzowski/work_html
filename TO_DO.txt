@@ -1,8 +1,24 @@
 Dzień 21-09-2017 (BB)
 1) Zamienić zdjęcie Syrenki w pokazie slajdów na stronie powitalnej
-2) Na stronie "Scientific committee" dać nagłówek "Committees" a poniżej podnagłówki "Honorary committee" a poniżej "Scientific committee"
-3) Strona "Conference programme" zamienić pierwszą pozycje tabeli na "Welcome reception", "Openning ceremony", "Gala dinner", "Closing ceremony"
+
+ 2) Na stronie "Scientific committee" dać nagłówek "Committees" a poniżej podnagłówki "Honorary committee" a poniżej "Scientific 	   Scommittee" podobnie Organizers
+
+3) Strona "Conference programme" zamienić pierwszą pozycje tabeli na "Welcome reception", "Openning ceremony", "Gala dinner", 	"Closing ceremony"
+
 4) Menu górne "Important information" niewłaściwa kolejność menu
+
 5) "Registration", pierwsze zdanie "The on-line registration will begin on January 1st, 2018."
+
 6) Na stronie "Payments" jest link do błędnego adres email: monika.wasilewska@globalcongress.pl
+
 7) Menu "Contact" błędny e-mail powinno być "global@globalcongress.pl"
+
+8) Home - mniejsze loga i mniej odstęb do stopki
+
+9) Conference program - social program, scientific program
+
+10) contact - wywalic puste miesce po menu bocznym.
+
+11) Warsaw - krótkie opisy obiektów
+
+
