@@ -651,3 +651,9 @@ h2.chairman {
 	 box-shadow: none;
 	 margin-bottom: 10px;
  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
