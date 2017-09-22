@@ -3,7 +3,7 @@ Dzień 21-09-2017 (BB)
 
 1) Zamienić zdjęcie Syrenki w pokazie slajdów na stronie powitalnej
 
-+ 	2) Na stronie "Scientific committee" dać nagłówek "Committees" a poniżej podnagłówki "Honorary committee" a poniżej "Scientific 	   Scommittee" podobnie Organizers
++ 	2) Na stronie "Scientific committee" dać nagłówek "Committees" a poniżej podnagłówki "Honorary committee" a poniżej "Scientific 	   committee" podobnie Organizers
 
 + 	3) Strona "Conference programme" zamienić pierwszą pozycje tabeli na "Welcome reception", "Openning ceremony", "Gala dinner", 	"Closing ceremony"
 
@@ -25,3 +25,12 @@ Dzień 21-09-2017 (BB)
 
 + 	12) Na stronie "Conference topics" poprawić "realiability" na "reliability" !
 
+---------------------
+Dzień 22-09-2017 (BB)
+
+1) Strona "Abstract and papers" jest już deadline nadsyłania abstraktów. Wstawić pogrubioną czcionką "April 15th, 2018" zamiast "to be annouced"
+2) Dotyczy 1) w zdaniu "Abstract will be submitted ellectronically on-line after registration" wstawić link do strony rejestracji.
+3) Dotyczy wszystkich podstron LINKI odróżnić kolorem NIEBIESKIM !!!
+4) Strona "Registration" usunąć ostatnie zdanie "The on-line registration will be open soon" Mamy już przecież termin.
+5) Strona "Conference fee" w paragrafie Reminder mamy SOLMECH2016
+6) Strona "Organizers" proponuję nie ustawiać wszystkiego centralnie.
