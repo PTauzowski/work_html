@@ -191,17 +191,6 @@ p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="d
 	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Conference venue<b class="caret"></b></a>')
 p.close()
 
-p=Page('accommodation');        
-p.template('page')
-p.replace('#mainmenu','main_menu')
-p.replace('#image','static_5')
-p.replace('#menu','conferencevenue_menu')
-p.replace('#content','accommodation_content')
-p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Conference venue<b class="caret"></b></a>',
-	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Conference venue<b class="caret"></b></a>')
-p.close()
-
-
 ################################################Important information
 p=Page('importantdates');        
 p.template('page')
@@ -231,6 +220,16 @@ p.replace('#menu','importantinformation_menu')
 p.replace('#content','payments_content')
 p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>',
 	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>')
+p.close()
+
+p=Page('accommodation');        
+p.template('page')
+p.replace('#mainmenu','main_menu')
+p.replace('#image','static_6')
+p.replace('#menu','importantinformation_menu')
+p.replace('#content','accommodation_content')
+p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Conference venue<b class="caret"></b></a>',
+	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Conference venue<b class="caret"></b></a>')
 p.close()
 
 
