@@ -73,6 +73,9 @@ Warsaw, the capital of Poland, is located in the very centre of Europe. It stand
 
 The city is the seat of the Polish Academy of Sciences, Warsaw National Philharmonic Orchestra and the University of Warsaw. The historic city-centre of Warsaw with its picturesque Old Town in 1980 was listed as a UNESCO World Heritage Site. Other main architectural attractions include the Castle Square with the Royal Castle and the iconic King Sigismund's Column, St. John's Cathedral, Market Square, palaces, churches and mansions all displaying a richness of colour and architectural detail. Buildings represent examples of nearly every European architectural style and historical period. Warsaw provides many examples of architecture from the Gothic, Renaissance, Baroque, neoclassical and modern periods, and around a quarter of the city is filled with royal parks and lush gardens.
 
-
+3) Sprawdzić link do QR kodu
+4) Na stronie "Abstract and Papers" podlinkować tekst "click here to log in" do strony o terminami rejestracji
+5) Tekst pod czasopismami wyjustować, albo zdanie "The deadline ..." zacząć z nowej linii.
+6) Na stronie Conference fee przesunąć 1 dla Note do tabeli i tekstu Registration fee
 
 
