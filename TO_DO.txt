@@ -58,7 +58,7 @@ Dzień 28-09-2017 (BB)
 
 Poponuję następujący tekst dla menu The Venue:
 
-1) Conference Venue
++	1) Conference Venue
 
 The SOLMECH 2018 conference will take place at the Old Library building of the University of Warsaw, Krakowskie Przedmieście Street 26/28.
 
@@ -67,7 +67,7 @@ The conference venue is located in central Warsaw near the Old Town, where there
 The venue is easily accessible by public transport.
 Frederic Chopin Airport is situated only 10 kilometers from the conference venue. There is direct connection from the airport to downtown and the conference site. 
 
-2) Warsaw City
++	2) Warsaw City
 
 Warsaw, the capital of Poland, is located in the very centre of Europe. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is officially estimated at 1.750 million residents within a greater metropolitan area of 3.101 million residents, which makes Warsaw the 9th most-populous capital city in the European Union.
 
