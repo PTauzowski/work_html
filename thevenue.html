@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
@@ -17,9 +16,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<script>
+    $('#extra-text').on('hidden.bs.collapse', function () {
+      $('#read-more').text('Read More');
+    });
+    $('#extra-text').on('shown.bs.collapse', function () {
+      $('#read-more').text('Read less');
+    });
+   </script>
+   <style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	</style>
+   
 </head>
 
 <body>
@@ -75,6 +98,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="abstractsandpapers.html">Abstracts &amp; Papers</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
             </ul>
           </li>
 
@@ -100,7 +124,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="importantdates.html">Important dates</a></li>
-              <li><a href="registration.html">Registration</a></li>
+              <li><a href="registration.html">Registration & Log in</a></li>
               <li><a href="conferencefee.html">Conference fee</a></li>
               <li><a href="payments.html">Payments</a></li>
               <li><a href="accommodation.html">Accommodation</a></li>
@@ -140,7 +164,7 @@
     </p>
     
     <p>
-    The Conference will take place in The Old Library of Warsaw University, Krakowskie Przedmieście  Street  26/28.  
+    The Conference will take place in The Old Library of Warsaw University, <a href='https://www.google.pl/maps/place/Uniwersytet+Warszawski/@52.239733,21.016963,3a,75y,67.45h,102.29t/data=!3m8!1e1!3m6!1s-OqVjuBZuxkc%2FUgPs6RlW1GI%2FAAAAAAAAhis%2FhJof0OzFUp0oQDyp1zLMtsrZSFgU7FLtQCJkC!2e4!3e11!6s%2F%2Flh4.googleusercontent.com%2F-OqVjuBZuxkc%2FUgPs6RlW1GI%2FAAAAAAAAhis%2FhJof0OzFUp0oQDyp1zLMtsrZSFgU7FLtQCJkC%2Fw203-h100-k-no-pi-15.4375-ya3.9895818-ro-0-fo100%2F!7i10000!8i5000!4m6!3m5!1s0x471ecc5e36fa6309:0xa4a1cda06c5afc7f!4b1!8m2!3d52.2403463!4d21.0186012!6m1!1e1' target='_blank'>Krakowskie Przedmieście  Street  26/28.</a>  
    </p>
    <p>
     The venue is easily accessible by public transport.
@@ -149,13 +173,12 @@ Frederic Chopin Airport is situated only 10 kilometers from the conference venue
     <img src='img/conferencevenue.jpg' alt='Libray' class='gate'/>
     <br>
     <p>Conference Venue on the map of Warsaw:</p>
-    <center>>
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1221.5903090805225!2d21.0186005!3d52.2401029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1817161971a4a772!2sAuditorium+Minus!5e0!3m2!1spl!2spl!4v1506590007626" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </center>
+    <div class="google-maps" align="center">
+    		<iframe align="middle" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1221.5903090805225!2d21.0186005!3d52.2401029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1817161971a4a772!2sAuditorium+Minus!5e0!3m2!1spl!2spl!4v1506590007626" width="600" height="450" frameborder="0" style="border:0; " allowfullscreen></iframe>
+    </div>
     <br>
     <a href='conference_venue.pdf' target='_blank'>Map  of  the  SOLMECH2018  Venue</a>
-    <br>
-    <a href='https://www.google.pl/maps/place/Uniwersytet+Warszawski/@52.239733,21.016963,3a,75y,67.45h,102.29t/data=!3m8!1e1!3m6!1s-OqVjuBZuxkc%2FUgPs6RlW1GI%2FAAAAAAAAhis%2FhJof0OzFUp0oQDyp1zLMtsrZSFgU7FLtQCJkC!2e4!3e11!6s%2F%2Flh4.googleusercontent.com%2F-OqVjuBZuxkc%2FUgPs6RlW1GI%2FAAAAAAAAhis%2FhJof0OzFUp0oQDyp1zLMtsrZSFgU7FLtQCJkC%2Fw203-h100-k-no-pi-15.4375-ya3.9895818-ro-0-fo100%2F!7i10000!8i5000!4m6!3m5!1s0x471ecc5e36fa6309:0xa4a1cda06c5afc7f!4b1!8m2!3d52.2403463!4d21.0186012!6m1!1e1' target='_blank'>Google Street View</a>
+
 
 					</div>
 				</div>
@@ -185,7 +208,7 @@ Frederic Chopin Airport is situated only 10 kilometers from the conference venue
 				<b>Scientific aspects</b><br>
 					Institute of Fundamental Technological Research<br>
 					Polish Academy of Sciences<br>
-					Pawińskiego 5b, 02-106 Warszawa, POLAND<br>
+					Pawi&#324skiego 5b, 02-106 Warszawa, POLAND<br>
 					Phone: +48 (22) 826 12 81 ext.192<br>
 					E-mail: <a style="color: #4FBA00" href="mailto:solmech2018@ippt.pan.pl">solmech2018@ippt.pan.pl</a>
 				</h3>

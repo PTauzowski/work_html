@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
@@ -17,9 +16,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<script>
+    $('#extra-text').on('hidden.bs.collapse', function () {
+      $('#read-more').text('Read More');
+    });
+    $('#extra-text').on('shown.bs.collapse', function () {
+      $('#read-more').text('Read less');
+    });
+   </script>
+   <style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	</style>
+   
 </head>
 
 <body>
@@ -75,6 +98,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="abstractsandpapers.html">Abstracts &amp; Papers</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
             </ul>
           </li>
 
@@ -100,7 +124,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="importantdates.html">Important dates</a></li>
-              <li><a href="registration.html">Registration</a></li>
+              <li><a href="registration.html">Registration & Log in</a></li>
               <li><a href="conferencefee.html">Conference fee</a></li>
               <li><a href="payments.html">Payments</a></li>
               <li><a href="accommodation.html">Accommodation</a></li>
@@ -135,12 +159,12 @@
 					<div class="panel-body">
 <h2 class="pagetitle">International Advisory Board</h2>
 <hr>
-        <p>Zdeněk Bažant     (USA)</p> 
+        <p>Zden&#283k Ba&#382ant     (USA)</p> 
         <p>Davide Bigoni           (Italy) </p> 
         <p>Tatsuo Inoue       (Japan) </p> 
         <p>Stavros Kourkoulis   (Greece) </p> 
         <p>Pierre Ladeveze    (France)   </p> 
-        <p>Eugenio Oñate    (Spain)</p> 
+        <p>Eugenio O&#241ate    (Spain)</p> 
         <p>Ignacio Romero (Spain) </p>
         <p>Alexis Rusinek (France) </p>
         <p>Hisaaki Tobushi   (Japan) </p> 
@@ -180,7 +204,7 @@
 				<b>Scientific aspects</b><br>
 					Institute of Fundamental Technological Research<br>
 					Polish Academy of Sciences<br>
-					Pawińskiego 5b, 02-106 Warszawa, POLAND<br>
+					Pawi&#324skiego 5b, 02-106 Warszawa, POLAND<br>
 					Phone: +48 (22) 826 12 81 ext.192<br>
 					E-mail: <a style="color: #4FBA00" href="mailto:solmech2018@ippt.pan.pl">solmech2018@ippt.pan.pl</a>
 				</h3>

@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
@@ -17,10 +16,19 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<script>
+    $('#extra-text').on('hidden.bs.collapse', function () {
+      $('#read-more').text('Read More');
+    });
+    $('#extra-text').on('shown.bs.collapse', function () {
+      $('#read-more').text('Read less');
+    });
+   </script>
 	<style>
+
 
 @media (min-width: 768px) 
 {   
@@ -114,6 +122,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="abstractsandpapers.html">Abstracts &amp; Papers</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
             </ul>
           </li>
 
@@ -139,7 +148,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="importantdates.html">Important dates</a></li>
-              <li><a href="registration.html">Registration</a></li>
+              <li><a href="registration.html">Registration & Log in</a></li>
               <li><a href="conferencefee.html">Conference fee</a></li>
               <li><a href="payments.html">Payments</a></li>
               <li><a href="accommodation.html">Accommodation</a></li>
@@ -166,6 +175,10 @@
 				</div>
 
 				<div class="item">
+				  <img src="img/slider/Slider_12s.png" >
+				</div>
+
+				<div class="item">
 				  <img src="img/slider/Slider_16s.png" >
 				</div>
 
@@ -173,41 +186,14 @@
 				  <img src="img/slider/Slider_06s.png" >
 				</div>
 
-				<div class="item">
-				  <img src="img/slider/Slider_23s.png" >
-				</div>
-				
-
-				<div class="item">
-				  <img src="img/slider/Slider_10s.png" >
-				</div>
-				
-				<div class="item">
-				  <img src="img/slider/Slider_11s.png" >
-				</div>
-
-				<div class="item">
-				  <img src="img/slider/Slider_22s.png" >
-				</div>
-
-				<div class="item">
-				  <img src="img/slider/Slider_14s.png" >
-				</div>
 				
 				<div class="item">
 				  <img src="img/slider/Slider_17s.png" >
 				</div>
 				
-				<div class="item">
-				  <img src="img/slider/Slider_19s.png" >
-				</div>
 
 				<div class="item">
-				  <img src="img/slider/Slider_20s.png" >
-				</div>
-
-				<div class="item">
-				  <img src="img/slider/Slider_12s.png" >
+				  <img src="img/slider/Slider_05s.png" >
 			  </div>
 			  
 			  <div class="item">
@@ -227,7 +213,7 @@
                     	<br>
 						</p>
 						<p style="text-align: justify">
-                  	 We would like to invite you to participate in the 41th Solid Mechanics Conference, which will be held in Warsaw  on August 27-31, 2018.  
+                  	 We would like to invite you to participate in the 41st Solid Mechanics Conference, which will be held in Warsaw  on August 27-31, 2018.  
 						</p>
 						<p style="text-align: justify">
                   	 The Solid Mechanics Conferences are a series of biannual international conferences, which have been organized by the Institute of Fundamental Technological Research of the Polish Academy of Sciences (IPPT PAN) since 1953.  They aim at maintaining high scientific standards and providing a friendly atmosphere, facilitating discussions  of  research  topics  on  solid mechanics.   
@@ -236,8 +222,8 @@
 							We are looking  forward to receiving  your abstract  and meeting you in  Warsaw.  
 						</p>
                   	  Yours Sincerely, <br><br>
-                    	Prof. K. Wisniewski - Chairman<br>
-                    	Dr. B. Blachowski - Scientific Secretary
+                    	K. Wisniewski - Chairman<br>
+                    	B. Blachowski - Scientific Secretary
                     	<br> 
                     	<br> 
                 	</p> 
@@ -247,7 +233,7 @@
 					 	
 												<div class='col-xs-6 col-md-6'>
 													<a href='http://www.kmech.pan.pl/' target='_blank'>
-													<img style="height:30%; width:30%" class='responsive' src='img/pan.png' 
+													<img style="height:20%; width:auto" class='responsive' src='img/pan.png' 
 													alt='POLISH ACADEMY OF SCIENCES' title='POLISH ACADEMY OF SCIENCES'></a>
 													<h2 class="text-center">
 														COMMITTEE ON MECHANICS<br>
@@ -257,7 +243,7 @@
 												<div class='col-xs-6 col-md-6'>
 													<h2 class="text-center">
 														<a href='http://www.ippt.pan.pl/en/' target='_blank'>
-															<img style="height:30%; width:30%" class='responsive' src='img/ippt.png' alt='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'
+															<img style="height:20%; width:auto" class='responsive' src='img/ippt.png' alt='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'
 															 title='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'>
 														</a>
 														INSTITUTE OF FUNDAMENTAL<br>
@@ -280,7 +266,7 @@
 				<b>Scientific aspects</b><br>
 					Institute of Fundamental Technological Research<br>
 					Polish Academy of Sciences<br>
-					Pawińskiego 5b, 02-106 Warszawa, POLAND<br>
+					Pawi&#324skiego 5b, 02-106 Warszawa, POLAND<br>
 					Phone: +48 (22) 826 12 81 ext.192<br>
 					E-mail: <a style="color: #4FBA00" href="mailto:solmech2018@ippt.pan.pl">solmech2018@ippt.pan.pl</a>
 				</h3>
