@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
@@ -17,9 +16,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<script>
+    $('#extra-text').on('hidden.bs.collapse', function () {
+      $('#read-more').text('Read More');
+    });
+    $('#extra-text').on('shown.bs.collapse', function () {
+      $('#read-more').text('Read less');
+    });
+   </script>
+   <style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	</style>
+   
 </head>
 
 <body>
@@ -75,6 +98,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="abstractsandpapers.html">Abstracts &amp; Papers</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
             </ul>
           </li>
 
@@ -100,7 +124,7 @@
             <a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="importantdates.html">Important dates</a></li>
-              <li><a href="registration.html">Registration</a></li>
+              <li><a href="registration.html">Registration & Log in</a></li>
               <li><a href="conferencefee.html">Conference fee</a></li>
               <li><a href="payments.html">Payments</a></li>
               <li><a href="accommodation.html">Accommodation</a></li>
@@ -121,7 +145,7 @@
 
 				<a href="importantdates.html">Important dates</a> 
 				/
-				<a href="registration.html">Registration</a> 
+				<a href="registration.html">Registration & Log in</a> 
 				/
 				<a href="conferencefee.html">Conference fee</a> 
 				/
@@ -137,11 +161,11 @@
 			<div class="col-sm-8 col-sm-push-4 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3">
 				<div class="panel panel-default content-panel">
 					<div class="panel-body">
-<h2 class="pagetitle">Conference fee<sup>1<sup></h2>
+<h2 class="pagetitle">Conference fee</h2>
 <table class='table table-striped deadline-table'>
             <tbody>
             <tr>
-    				<th>Registration Fees</th>
+    				<th>Registration Fees<sup>1<sup></th>
     				<th>Before May 31, 2018</th>
     				<th>After May 31, 2018</th>
   				</tr>
@@ -165,17 +189,18 @@
 <p><sup>1</sup> <b>Note that registration fees are in  <font color="red">Polish  Zloty  (PLN) only.</font> The above currency conversion links are indicative.<br> 23% VAT  is  included in the conference fee.</b> </p>
 <br>
 
-<p style="text-align: justify">The fee reduction is possible for students and junior scientists who have submitted an abstract. Applications for the fee reduction should be submitted until May 31st, 2018.</p>
+<p style="text-align: justify">A fee reduction is possible for young scientists who's abstract has been accepted. Applications for the fee reduction should be submitted before May 31st, 2018.</p>
+<p style="text-align: justify">When a paid registration is cancelled before August 1st, 2018   then  50%  of the registration fee will be reimbursed.   After this date, the registration  fee cannot be reimbursed.</p> 
  
 <p><b>Reminder:</b>   Each paid registrant at SolMech 2018 will be limited to one presentation.  Participants may be an author of multiple abstracts, but may be the presenting author of only one abstract. 
-When a paid registration is cancelled before August 1st, 2018   then  50%  of the registration fee will be reimbursed.   After this date, the registration  fee cannot be reimbursed. </p>
+</p>
 <p>The registration fees covers: </p>  
 <ul class="interline">
                     <li>Welcome Reception,  lunches and coffee breaks, Conference Gala Dinner,</li>
                     <li>Participation in all sessions and the electronic conference materials (for fully registered participants  and  young scientists only)</li>
 </ul>
 <br>                    
-<p><i>Other social events covered by  the conference fee  will be announced later.</i></p>
+<p><i>Social events covered by  the conference fee  will be announced later.</i></p>
 
 
 					</div>
@@ -189,14 +214,14 @@ When a paid registration is cancelled before August 1st, 2018   then  50%  of th
 					<div class="panel-body">
 						<ul class="list-group">
 							<li class="list-group-item"><a href ="importantdates.html">Important dates</a></li>
-							<li class="list-group-item"><a href ="registration.html">Registration</a></li>							
+							<li class="list-group-item"><a href ="registration.html">Registration & Log in</a></li>							
 							<li class="list-group-item"><a href ="conferencefee.html">Conference fee</a></li>
 							<li class="list-group-item"><a href ="payments.html">Payments</a></li>
 							<li class="list-group-item"><a href ="accommodation.html">Accommodation</a></li>
 					   </ul>
 					</div>
-				</div>
-
+					
+			</div>
 
 
 
@@ -215,7 +240,7 @@ When a paid registration is cancelled before August 1st, 2018   then  50%  of th
 				<b>Scientific aspects</b><br>
 					Institute of Fundamental Technological Research<br>
 					Polish Academy of Sciences<br>
-					Pawińskiego 5b, 02-106 Warszawa, POLAND<br>
+					Pawi&#324skiego 5b, 02-106 Warszawa, POLAND<br>
 					Phone: +48 (22) 826 12 81 ext.192<br>
 					E-mail: <a style="color: #4FBA00" href="mailto:solmech2018@ippt.pan.pl">solmech2018@ippt.pan.pl</a>
 				</h3>

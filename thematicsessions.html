@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
@@ -17,9 +16,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<script>
+    $('#extra-text').on('hidden.bs.collapse', function () {
+      $('#read-more').text('Read More');
+    });
+    $('#extra-text').on('shown.bs.collapse', function () {
+      $('#read-more').text('Read less');
+    });
+   </script>
+   <style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+	</style>
+   
 </head>
 
 <body>
@@ -75,6 +98,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="abstractsandpapers.html">Abstracts &amp; Papers</a></li>
+              <li><a href="downloads.html">Downloads</a></li>
             </ul>
           </li>
 
@@ -100,7 +124,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Important information<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="importantdates.html">Important dates</a></li>
-              <li><a href="registration.html">Registration</a></li>
+              <li><a href="registration.html">Registration & Log in</a></li>
               <li><a href="conferencefee.html">Conference fee</a></li>
               <li><a href="payments.html">Payments</a></li>
               <li><a href="accommodation.html">Accommodation</a></li>
@@ -136,14 +160,23 @@
 <h2 class="pagetitle">Thematic sessions</h2>
 <hr>
 
+<script>
+    $('#more1').on('hidden.bs.collapse', function () {
+      $('#bt-more1').text('Read More');
+    });
+    $('#more1').on('shown.bs.collapse', function () {
+      $('#bt-more1').text('Read less');
+    });
+</script>
+
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S01: Elasticity, Plasticity and Phase Transition</h4>
+		<h4>S01: Elasticity, plasticity and phase transition</h4>
 	</div>
 	<div class="panel-body">
 		<p><b>S. Forest</b> <i>(MINES Paristech, CNRS, Paris)</i>, <b>H. Petryk</b> <i>(IPPT PAN, Warsaw)</i></p>
-		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".more1">Read more</button>
-		  <div  class="more1 collapse">
+		<button id="bt-more1" href="#more1" type="button" class="btn btn-primary btn-sm" data-toggle="collapse" >Read more</button>
+		  <div id="more1" class="more1 collapse">
 		  <br>
 			This Session encompasses theoretical, computational and experimental investigations in the broad field of elasticity, plasticity and phase transition. Especially welcome are the presentations bringing novel concepts and results that can be of interest not only for specialists in the particular topic addressed but also for a wider group of researchers working in other branches of the field. This is to promote interactions between different but methodologically related approaches to a variety of contemporary problems of continuum mechanics. Of special interest are reports on the recent progress in the mechanics at small length scales and including size effects. This comprises in particular the development of higher-order gradients theories as well as models of surface and interfacial energy effects. 
 			<br>
@@ -156,36 +189,33 @@ In general, this Session is intended to provide opportunities to exchange ideas,
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S02: Micromechanics, Interfaces and Multiscale Modelling</h4>
+		<h4>S02: Micromechanics, interfaces and multiscale modelling</h4>
 	</div>
 	<div class="panel-body">
 		<p><b>V. Kouznetsova </b> <i>(Eindhoven UT)</i>,  <b>A. Menzel</b> <i>(TU Dortmund)</i>, <b>S. Stupkiewicz</b> <i>(IPPT PAN, Warsaw)</i></p>
-		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".more2">Read more</button>
-		  <div  class="more2 collapse">
-		  <br>
-The goal of this thematic session is to provide a forum for presenting and discussing recent advances in micromechanics and multi-scale modelling of materials and interfaces. Topics of interest include:
-<ul>
-
- <li>scale transition methods, both mean-field models and computational homogenization;</li>
- <li>multi-scale approaches and their applications in modelling of materials and interfaces;</li>
- <li>applications to composites and heterogeneous materials in either elastic or inelastic range, including coupled problems;</li>
- <li>modelling of formation and evolution of microstructures;</li>
- <li>mechanics of interfaces;</li>
- <li>contact and friction mechanics.</li>
- </ul>
+		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#more2">Read more</button>
+		  <div id="more2" class="panel-collapse collapse">
+		  	<br>
+				The goal of this thematic session is to provide a forum for presenting and discussing recent advances in micromechanics and multi-scale modelling of materials and interfaces. Topics of interest include:
+				<ul>
+ 					<li>scale transition methods, both mean-field models and computational homogenization;</li>
+ 					<li>multi-scale approaches and their applications in modelling of materials and interfaces;</li>
+ 					<li>applications to composites and heterogeneous materials in either elastic or inelastic range, including coupled problems;</li>
+ 					<li>modelling of formation and evolution of microstructures;</li>
+ 					<li>mechanics of interfaces;</li>
+ 					<li>contact and friction mechanics.</li>
+ 				</ul>
 		  </div>
-		  
 	</div>
 </div>
 
-
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S03: Damage and Fracture Modelling of Advanced Materials</h4>
+		<h4>S03: Damage and fracture modelling of advanced materials</h4>
 	</div>
 	<div class="panel-body">
 		<p>
-		<b>M. Basista</b> <i>(IPPT PAN Warsaw)</i>, <b>G. Bolzon</b> <i>(Polit. di Milano)</i>, <b>Ch. Sommitsch</b> <i>(TU Graz)</i>
+		<b>M. Basista</b> <i>(IPPT PAN, Warsaw)</i>, <b>G. Bolzon</b> <i>(Polit. di Milano)</i>, <b>Ch. Sommitsch</b> <i>(TU Graz)</i>
 		</p>
 		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".more3">Read more</button>
 		  <div  class="more3 collapse">
@@ -235,14 +265,13 @@ This session is primarily concerned with bulk metal-, ceramic- and polymer-matri
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S05: Computational Aspects of Solid Mechanics</h4>
+		<h4>S05: Computational aspects of solid mechanics</h4>
 	</div>
 	<div class="panel-body">
 		<p>
-		<b>T. Burczyński</b> <i>(IPPT PAN, Warsaw)</i>, <b>P. Kowalczyk</b> <i>(IPPT PAN, Warsaw)</i>
+			<b>O. Allix</b> <i>(LMT, ENS Cachan, France)</i>, <b>T. Burczyński</b> <i>(IPPT PAN, Warsaw)</i>, <b>P. Kowalczyk</b> <i>(IPPT PAN, Warsaw)</i>
 		</p>
-
-		  
+		
 	</div>
 </div>
 
@@ -275,14 +304,30 @@ and others are expected. Contributions presenting methods and results of multisc
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S07: Coupled Fields in Nanostructures</h4>
+		<h4>S07: Coupled fields in nanostructures and continua</h4>
 	</div>
 	<div class="panel-body">
 		<p>
 		<b>T. &#321odygowski</b> <i>(Poznan UT)</i>, <b>R. Pęcherski</b> <i>(IPPT PAN, Warsaw)</i>, <b>H. M. Shodja</b> <i>(Sharif UT, Iran)</i>
 		</p>
-		  
-	</div>
+		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".more7">Read more</button>
+		<div  class="more7 collapse">
+			<br>
+		  	<p style="text-align: justify">Phenomena related to coupled fields in any forms of interaction between electrical, magnetic, mechanical, chemical and thermal, associated to continuous media with micro- / nano-structures incurred in various branches of engineering sciences are the focus of this session.  Novel higher order continuum theories, experimental methodologies, computational, and atomistic simulations to capture the discrete nature of the media are in the spotlight.</p>
+		  	<p style="text-align: justify">In recent physical foundations of continua, multiscale modelling is aimed to estimate material properties or system behaviour on one level using information and theories from different levels: level of quantum mechanical models accounting for the information about electron fields, level of molecular dynamics providing information about individual atoms, mesoscale or nano level related with the information about groups of atoms and molecules and finally level of continuum models. Each level is related with an information flow over a specific window of length and time.  Multiscale modelling is significant in integrated computational  prediction of material properties or system behaviour with use of the knowledge of the atomistic structure and properties of elementary processes. On the other hand, in the workflow integration approach information from molecular simulation at different levels flows into the decision process.</p>
+		  	<p style="text-align: justify">The contributions devoted to presentation and critical comparison and discussion of the both aforementioned approaches are welcome.</p>
+		  	<p style="text-align: justify">The studies and discussions of computational challenges related with <a href="https://en.wikipedia.org/wiki/Integrated_computational_materials_engineering">integrated computational materials engineering</a> belong also to the scope of the session.</p>
+			<p style="text-align: justify">Also the wide scope of the coupled fields phenomena of interest include but not limited to:</p>
+			<ul>
+			    	<li>coupled fields problems involving nano-size structures, dislocations, nano-size cracks, inhomogeneities, and nano-composites, where surfaces / interfaces have significant effects,</li>
+  					<li>coupled fields associated to various static as well as wave propagation problems,</li>
+  					<li>piezoelectric and piezomagnetic media,</li>
+  					<li>energy materials, quantum dots, and quantum wires,</li>
+  					<li>theoretical, experimental, and atomistic modelling including ab initio,</li>
+  					<li>studies of coupled-fields with reference to generalized continua.</li>
+			</ul>
+		</div>
+		</div>
 </div>
 
 
@@ -317,7 +362,7 @@ Main topics:
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S09:Experimental mechanics</h4>
+		<h4>S09: Experimental mechanics</h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -352,7 +397,7 @@ Main topics:
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S10: Geomechanics and Multiscale Modelling of Materials</h4>
+		<h4>S10: Geomechanics and multiscale modelling of materials</h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -382,7 +427,7 @@ Main topics:
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S11: Multiphysics problems in poromechnics</h4>
+		<h4>S11: Multiphysics problems in poromechanics</h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -435,7 +480,7 @@ In modeling of porous media different scales of their inner structure are usuall
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S13: Smart Materials and Structures</h4>
+		<h4>S13: Smart materials and structures</h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -468,7 +513,7 @@ We welcome contributions on experimental and simulation results on smart materia
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S14: Structural Mechanics and Optimization</h4>
+		<h4>S14: Structural mechanics and optimization</h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -515,20 +560,34 @@ Theoretical as well as experimental contributions are equally welcome.
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S16: Shells and Plates</h4>
+		<h4>S16: Shells and plates<br><span style="font-size: 14px">Dedicated  to the anniversary of  Prof. W. Pietraszkiewicz with  the tribute speech  by   Prof. J. Badur  (IMP PAN, Gdansk)</span></h4>
 	</div>
 	<div class="panel-body">
 		<p>
 		<b>J. Chróścielewski</b> <i>(Gdansk UT)</i>, <b>F. Gruttmann</b> <i>(TU Darmstadt)</i>,
-     <b>V. Eremeyev</b> <i>(Rostov on Don, Gdansk UT)</i>, <br><b>K. Wiśniewski</b> <i>(IPPT Warsaw)</i>
-		</p>	  
+     <b>V. Eremeyev</b> <i>(Rostov on Don, Gdansk UT)</i>, <br><b>K. Wiśniewski</b> <i>(IPPT PAN, Warsaw)</i>
+		</p>	
+		<button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".more16">Read more</button>
+		  <div  class="more16 collapse">
+		  <br>
+  			<p>The topics of the session include (but are not limited to):</p>
+			<ul class="interline">
+                    <li>Classical and non-classical kinematical models:  Kirchhoff-Love, Reissner-Mindlin,  Cosserat , layer-wise theories and others,</li>
+                    <li>Constitutive equations for shells and plates:  elastic,  elastic-plastic,  composites (multilayered, with microstructure),  effective (homogenized, surrogate) material properties, damage of  composites (delamination, Progressive Failure Analysis, etc.)</li>
+                    <li>Constitutive equations for thin micro- and nano-films, biological membranes,  and other  thin-walled structures,</li>
+                    <li>Methods of mechanics of plates and shells in modeling of surface-related phenomena in solids and fluids,</li>
+                    <li>Finite elements  for shells: with rotational dofs, solid-shells, 3D.  Various formulations and  techniques improving element’s  performance;  mixed,  enhanced,  stabilized, isogeometric, etc.,</li>
+                    <li>Advanced numerical analyses of  shell structures (dynamics, stability, optimization, etc).</li>
+			</ul>
+			<p>If you have any queries about the session, please  write to <a href="mailto:kwisn@ippt.pan.pl">kwisn@ippt.pan.pl</a></p> 
+		  </div>	  
 	</div>
 </div>
 
 
 <div class="panel panel-defult collapse-panel">
 	<div class="panel-heading">
-		<h4>S17: Stochastic Mechanics <br><span style="font-size: 14px"> Dedicated to the memory of the late Professor Kazimierz Sobczyk (1939-2017) </span></h4>
+		<h4>S17: Stochastic mechanics <br><span style="font-size: 14px"> Dedicated to the memory of the late Professor Kazimierz Sobczyk (1939-2017) </span></h4>
 	</div>
 	<div class="panel-body">
 		<p>
@@ -561,6 +620,7 @@ This session is dedicated to the memory of  Prof. Sobczyk.  Thus, we invite pape
 							<li class="list-group-item"><a href ="conferenceprogramme.html">Conference programme</a></li>
 					   </ul>
 					</div>
+					
 				</div>
 
 
@@ -579,7 +639,7 @@ This session is dedicated to the memory of  Prof. Sobczyk.  Thus, we invite pape
 				<b>Scientific aspects</b><br>
 					Institute of Fundamental Technological Research<br>
 					Polish Academy of Sciences<br>
-					Pawińskiego 5b, 02-106 Warszawa, POLAND<br>
+					Pawi&#324skiego 5b, 02-106 Warszawa, POLAND<br>
 					Phone: +48 (22) 826 12 81 ext.192<br>
 					E-mail: <a style="color: #4FBA00" href="mailto:solmech2018@ippt.pan.pl">solmech2018@ippt.pan.pl</a>
 				</h3>

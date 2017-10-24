@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: ISO-8859-2 -*-
 class Page(object):
 	def __init__(self,name):
 		self.name = name + '.html'
@@ -130,8 +130,18 @@ p=Page('abstractsandpapers');
 p.template('page')
 p.replace('#mainmenu','main_menu')
 p.replace('#image','static_3')
-p.replace('#menu',' ')
+p.replace('#menu','forauthors_menu')
 p.replace('#content','abstractsandpapers_content')
+p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>',
+	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>')
+p.close()
+
+p=Page('downloads');        
+p.template('page')
+p.replace('#mainmenu','main_menu')
+p.replace('#image','static_3')
+p.replace('#menu','forauthors_menu')
+p.replace('#content','downloads_content')
 p.rtxt('<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>',
 	'<a class="menuclick" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">For Authors<b class="caret"></b></a>')
 p.close()
