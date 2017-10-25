@@ -1,10 +1,10 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
-    <meta name="author" content="Piotrek" >
+   <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="Description" content="Solid Mechanics Conference Warsaw 2018">
+   <meta name="author" content="Piotrek" >
 	<meta name="Keywords" content="solmech, solmech2018, solid mechanics, conference">
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Expires" content="-1">
@@ -58,12 +58,16 @@
   }
 }
 
-.carousel-inner .item > img {
-  -webkit-animation: zoom 40s;
-  animation: zoom 40s;
-  max-height: 325px;
-  height: 325px;
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
 
    </style>
 </head>
@@ -114,20 +118,19 @@
                 	  	<br> 
                     	<br>
 					 	<div  class='row'>
-					 	
-												<div class='col-xs-6 col-md-6'>
+												<div class='col-sm-6 col-lg-6'>
 													<a href='http://www.kmech.pan.pl/' target='_blank'>
-													<img style="height:20%; width:auto" class='responsive' src='img/pan.png' 
+													<img style="height:10%; width:auto" class='responsive' src='img/pan.png' 
 													alt='POLISH ACADEMY OF SCIENCES' title='POLISH ACADEMY OF SCIENCES'></a>
 													<h2 class="text-center">
 														COMMITTEE ON MECHANICS<br>
 														POLISH ACADEMY OF SCIENCES
 													</h2>
 												</div>	
-												<div class='col-xs-6 col-md-6'>
+												<div class='col-sm-6 col-lg-6'>
 													<h2 class="text-center">
 														<a href='http://www.ippt.pan.pl/en/' target='_blank'>
-															<img style="height:20%; width:auto" class='responsive' src='img/ippt.png' alt='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'
+															<img style="height:10%;  width:auto" class='responsive' src='img/ippt.png' alt='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'
 															 title='INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEARCH POLISH ACADEMY OF SCIENCES'>
 														</a>
 														INSTITUTE OF FUNDAMENTAL<br>
