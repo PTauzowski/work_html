@@ -1,4 +1,4 @@
-# -*- coding: ISO-8859-2 -*-
+# -*- coding: UTF-8 -*-
 class Page(object):
 	def __init__(self,name):
 		self.name = name + '.html'
